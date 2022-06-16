@@ -1,8 +1,3 @@
-from bs4 import BeautifulSoup
-import requests 
-import re
-from selenium import webdriver
-import time
 # BeautifulSoup 객체만들기
 def create_soup(url):
     headers = {
