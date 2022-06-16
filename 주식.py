@@ -12,4 +12,5 @@ def scrape_share_price():
     for sise in sises_kor: #반복
         title = sise.find('a').text  # a 태그를 text로 가져온다.
         result = sise.find('span').text # span 태그를 text로 가져온다.
-        print(f'{title} \t {result}') #title과 result 출력
+
+        print(f'{title} \t {result}') # title과 result 출력
